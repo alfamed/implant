@@ -8,6 +8,9 @@ cache:
   - bower_components
 node_js:
   - "4.4"
+before_script:
+  - sudo apt-get install -y tree pwd
+  - bower install
 script:
   - gulp build
   - tree build
