@@ -24,5 +24,28 @@
   "bugs": {
     "url": "https://github.com/alfamed/implant/issues"
   },
-  "homepage": "https://github.com/alfamed/implant#readme"
+  "homepage": "https://github.com/alfamed/implant#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-include": "^2.3.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jslint": "^1.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.9",
+    "imagemin-pngquant": "^5.0.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "main-bower-files": "^2.13.1",
+    "rimraf": "^2.5.4"
+  }
 }
