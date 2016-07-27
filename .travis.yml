@@ -1,0 +1,20 @@
+language: node_js
+notifications:
+  email: false
+  slack: lumident:Kkpxv0P1EHFvumqsHHfxKLv2
+cache:
+  directories:
+  - node_modules
+  - bower_components
+node_js:
+  - "4.4"
+script:
+  - gulp build
+deploy:
+  provider: heroku
+  api_key:
+    secure: ikLfMgwhTRTyn42uG8kwpY46C/BBBSqacpNbEr2/qX8QLGZ2TEOppvh9Sgy/QNR/Zl/o9XQZ7VSYQI0Xk37x6dGcd0c8corM01We/23OHQItLF+VbL5yvc/2beniArGagztWKQ1fNhpHzlNYpiaizAEiYRpzHJxTZmNDhepw5OKgf9Z2mcVZ0V18cX0ghM4Qc+FWbHq5f9VSDGHVVtw2QcFY5OEF/00HWwZz9eBtYDpL8kl00j5AAVWJtlWml4ObKPDFPxSSUYq5aeFxAes6vm99OGhqE8QfS+mA6abyEjTT1jvojSfIBlQ6VVFvsuhPt+YNKW1hqeyPkbxW5rvJwYNguiBXL90uPZKjmVaxK/B7BR+U8t7f3YbjaWla60Z/qhD2S/FJcbSZaMWrd6Ma9M9eVfWzxqLqHWuyiXUgCcTcnVtKSj0xu8bzvrQVcXsPKeCXNMKOMjk1JO4p3ks4s3db42rIKaFmYrcswwadTLy07Ju10RWJX2AshH9A1edVL1IhnkcOWl28jnVaPGm7uqs0fXggu0ZmwW5GtBtSQXLKpjJjN022B4XPcvogezeBzh3bTHYOccT+PSaGzP+XoWq4wv1sqYPatNNximWfTU2tqINlZllPwYrNEfAATu5PuNr720ACSvoaE1M2EkAXdCiV9C2HuJbvB8uuIZeE/MY=
+  app: implant-landing
+  on:
+    repo: alfamed/implant
+  skip_cleanup: true
