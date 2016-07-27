@@ -9,16 +9,13 @@ cache:
 node_js:
   - "4.4"
 before_script:
-  - sudo apt-get install -y tree pwd
-  - bower install
+  - sudo apt-get install -y tree
 script:
   - gulp build
   - tree build
-  - pwd
 before_deploy:
   - cd build
   - tree
-  - pwd
 deploy:
   provider: heroku
   api_key:
