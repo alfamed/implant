@@ -10,6 +10,8 @@ node_js:
   - "4.4"
 script:
   - gulp build
+before_deploy:
+    - cd build
 deploy:
   provider: heroku
   api_key:
