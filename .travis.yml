@@ -10,8 +10,12 @@ node_js:
   - "4.4"
 script:
   - gulp build
+  - tree build
+  - pwd
 before_deploy:
-    - cd build
+  - cd build
+  - tree
+  - pwd
 deploy:
   provider: heroku
   api_key:
