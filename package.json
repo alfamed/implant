@@ -1,0 +1,28 @@
+{
+  "name": "implant",
+  "version": "1.0.1",
+  "description": "Лендинг имплантации",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfamed/implant.git"
+  },
+  "keywords": [
+    "landing",
+    "implant",
+    "development",
+    "dentist",
+    "dental",
+    "stomatology",
+    "dent"
+  ],
+  "author": "Alfamed Ukraine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfamed/implant/issues"
+  },
+  "homepage": "https://github.com/alfamed/implant#readme"
+}

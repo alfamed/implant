@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+node_modules
+*.node
+components
+build
+coverage
+*.orig
+.idea
+.idea/*/**
+sandbox
+test/out-fixtures/*
+test/watch-*.txt
+gulp.1
+bower_components
+vendor
