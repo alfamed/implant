@@ -1,0 +1,29 @@
+{
+  "name": "implant",
+  "description": "Лендинг имплантации",
+  "main": "index.js",
+  "authors": [
+    "Alfamed Ukraine"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "landing",
+    "implant",
+    "development",
+    "dentist",
+    "dental",
+    "stomatology",
+    "dent"
+  ],
+  "homepage": "https://github.com/alfamed/implant",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "uikit": "^2.26.4"
+  }
+}
