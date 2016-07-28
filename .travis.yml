@@ -12,8 +12,6 @@ before_script:
   - bower install
 script:
   - gulp build
-before_deploy:
-  - cd build
 deploy:
   provider: heroku
   api_key:
@@ -22,3 +20,5 @@ deploy:
   on:
     repo: alfamed/implant
   skip_cleanup: true
+  run:
+    - "gulp build"
