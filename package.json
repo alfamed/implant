@@ -25,7 +25,7 @@
     "url": "https://github.com/alfamed/implant/issues"
   },
   "homepage": "https://github.com/alfamed/implant#readme",
-  "devDependencies": {
+  "Dependencies": {
     "bower": "^1.7.9",
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
