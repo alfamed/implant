@@ -21,4 +21,4 @@ deploy:
     repo: alfamed/implant
   skip_cleanup: true
   run:
-    - "gulp build"
+    - "cd build"
