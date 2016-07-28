@@ -1,10 +1,16 @@
 {
   "name": "implant",
   "version": "1.0.1",
+  "engines": {
+    "node": "4.4.3"
+  },
   "description": "Лендинг имплантации",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "mocha test",
+    "postinstall": "gulp build"
   },
   "repository": {
     "type": "git",
