@@ -9,12 +9,11 @@ cache:
 node_js:
   - "4.4"
 before_script:
-  - sudo apt-get install -y tree
+  - bower install
 script:
   - gulp build
-  - tree build
 before_deploy:
-#  - cd build
+  - cd build
 deploy:
   provider: heroku
   api_key:
